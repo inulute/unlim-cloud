@@ -25,7 +25,7 @@ You can download the latest releases for Windows from the release section.
 </div>
 
 > [!NOTE]  
-> macOS and Linux versions of Unlim Cloud will be available soon, so stay tuned for updates! In the meantime, you can download the latest version for Windows from the link above. Thank you for your patience and support!
+> macOS and Linux versions of Unlim Cloud Dekstop app will be available soon, so stay tuned for updates! In the meantime, you can download the latest version for Windows from the link above. Thank you for your patience and support!
 
 <h2>🚀 Run Locally</h2>
 
@@ -69,7 +69,7 @@ If you find this project helpful, consider supporting us by making a donation. Y
 <div align="center">
   <a href="https://ko-fi.com/inulute"><img height='41' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' alt='Buy Me a Coffee at ko-fi.com'></a>
   <a href="https://paypal.me/inulute"><img src="src/assets/payment/paypal.svg" alt="PayPal" height="41" width="174"></a>
-  <a href="https://upi-inulute.vercel.app/"><img src="src/assets/payment/upi.svg" alt="UPI Pay" height="41" width="174"></a>
+  <a href="https://upi-inulute.vercel.app/"><img src="src/assets/payment/upi.svg" alt="UPI" height="41" width="174"></a>
 </div>
 
 > [!NOTE]  
@@ -77,11 +77,11 @@ If you find this project helpful, consider supporting us by making a donation. Y
 
 <h2>🗃️ License</h2>
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/inulute/unlim-cloud/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License **LICENSE** file for details.
 
 <div align="center">
   <a href="https://github.com/inulute/unlim-cloud/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/inulute/unlim-cloud?style=for-the-badge" alt="License">
+    <img src="https://img.shields.io/github/license/inulute/unlim-cloud?color=blue&style=for-the-badge" alt="License">
   </a>
 </div>
 
