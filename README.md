@@ -93,6 +93,6 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 &nbsp;
 <div align="center">
 
-  [![Made with ❤️ by inulute](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20inulute-black?style=flat-square)](https://github.com/inulute)
+  [![Made with ❤️ by inulute](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F%20by%20inulute-black?style=flat-square)](https://inulute.github.io/linkme/)
 
 </div>
