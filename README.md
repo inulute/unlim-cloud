@@ -9,11 +9,11 @@ Welcome to the Unofficial Desktop Application for [UnlimCloud](https://unlimclou
 
 UnlimCloud offers a unique cloud storage solution, utilizing your Telegram ID as a secure and private storage identifier. Enjoy unlimited cloud storage for your files, accessible through this sleek desktop application.
 
-## Features
+## Features of Unlim Cloud 
 
 - **Secure Login:** 🔒 Easily access your UnlimCloud account with a seamless login experience.
 - **File Management:** 📂 Effortlessly upload, download, and organize your files and folders.
-- **Media Streaming:** ▶️ Stream media files directly from UnlimCloud for a hassle-free entertainment experience.
+- **Galley:** 🖼️ Galley to manage your pictures and videos at one place.
 
 <h2>📦 Releases</h2>
 
