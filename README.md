@@ -21,7 +21,12 @@ You can download the latest releases for Windows from the release section.
 
 <div align="center">
 
-  [![Releases](https://img.shields.io/github/v/release/inulute/unlim-cloud?color=green&include_prereleases&label=Release&style=for-the-badge)](https://github.com/inulute/unlim-cloud/releases)
+
+
+[![Download](https://img.shields.io/badge/Download-Unlim%20Cloud-brightgreen?style=for-the-badge)](https://www.pling.com/p/2107697/)
+
+[![Changelog](https://img.shields.io/github/v/release/inulute/unlim-cloud?color=brightgreen&include_prereleases&label=Changelog&style=for-the-badge)](https://github.com/inulute/unlim-cloud/releases)
+
 </div>
 
 > [!NOTE]  
