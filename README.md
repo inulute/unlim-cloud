@@ -17,7 +17,7 @@ UnlimCloud offers a unique cloud storage solution, utilizing your Telegram ID as
 
 <h2>📦 Releases</h2>
 
-You can download the latest releases for Windows from the release section.
+You can download the latest releases for **Windows, Linux and Mac** from the release section.
 
 <div align="center">
 
