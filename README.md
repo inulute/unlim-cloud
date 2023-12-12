@@ -30,7 +30,7 @@ You can download the latest releases for Windows from the release section.
 </div>
 
 > [!NOTE]  
-> macOS and Linux versions of Unlim Cloud Dekstop app will be available soon, so stay tuned for updates! In the meantime, you can download the latest version for Windows from the link above. Thank you for your patience and support!
+> The **macOS** and **Linux** versions of the Unlim Cloud Desktop app have been **released!** You can now download the latest version for **Windows, macOS, and Linux** from the link above. Thank you for your patience and support!
 
 <h2>🚀 Run Locally</h2>
 
