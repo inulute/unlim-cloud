@@ -1,11 +1,11 @@
 <div align="center">
-  <img src="src\assets\unlim-clear.png" alt="UnlimCloud Logo" width="200"/> 
+  <img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYRaOUOWZA5LSFZEtHTCvvwiujs9XghM2DkrPwzhxJVh16zfFFC8OPncgy4iX4kqnUOfgXZ5i5_FKGPo5ZagaSIyAtVRKw=s2560" alt="UnlimCloud Logo" width="200"/> 
   <h1>UnlimCloud Desktop App</h1>
 </div>
 
 Welcome to the Unofficial Desktop Application for [UnlimCloud](https://unlimcloud.cloud)
 
-## About UnlimCloud <img src="src\assets\unlim-clear.png" alt="UnlimCloud Logo" width="30"/> 
+## About UnlimCloud <img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYRaOUOWZA5LSFZEtHTCvvwiujs9XghM2DkrPwzhxJVh16zfFFC8OPncgy4iX4kqnUOfgXZ5i5_FKGPo5ZagaSIyAtVRKw=s2560" alt="UnlimCloud Logo" width="30"/> 
 
 UnlimCloud offers a unique cloud storage solution, utilizing your Telegram ID as a secure and private storage identifier. Enjoy unlimited cloud storage for your files, accessible through this sleek desktop application.
 
@@ -65,16 +65,19 @@ We welcome contributions! If you encounter issues or have suggestions for improv
 ## Support and Donations ❣️
 
 <div align=center>
-<img src="src\assets\dunno2.svg" alt="UnlimCloud Logo" width="80"/> 
+<img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYSRg3Dm_MkHd54IHa1zOZ7_3iZp0kWoqCkgxzQY_zZU1E0r23gI4YK6DyBP5BplOkD0Ml5ZSTugz0B2QXX_Ch8U1I1OCA=s2560" alt="Dunno" width="80"/> 
 
 </div>
 
-If you find this project helpful, consider supporting us by making a donation. Your contributions help maintain and improve UnlimCloud Desktop App.
+If you find this project helpful, consider supporting us by making a donation. Your contributions help maintain and improve Unlim Cloud Desktop App.
 
 <div align="center">
-  <a href="https://ko-fi.com/inulute"><img height='41' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' alt='Buy Me a Coffee at ko-fi.com'></a>
-  <a href="https://paypal.me/inulute"><img src="src/assets/payment/paypal.svg" alt="PayPal" height="41" width="174"></a>
-  <a href="https://upi-inulute.vercel.app/"><img src="src/assets/payment/upi.svg" alt="UPI" height="41" width="174"></a>
+    <a href="https://ko-fi.com/inulute">
+        <img height='41' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' alt='Buy Me a Coffee at ko-fi.com'></a>
+  <a href="https://paypal.me/inulute"><img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYTODu3by7XcL633IjmJm6YlKmHzwh0lHYM_BDlmy1hznGt0y4NQ39J8YRkWXoFq8LAz6XVGMm-wTCfXQYkyOidd6Y9p9g=s1600" alt="PayPal" height="38" width="auto"></a>
+  <a href="https://upi-inulute.vercel.app/">
+      <img src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYSkeOpuuC41ftYqUfoJBLZhfHabE3SwZoNatkrYCeORamSRVI4FWG8sRyVHU6VGFsjMmLaVqDXaMx6Y-XWxtHs7ysz3=s1600" alt="UPI Pay" height="38" width="auto">
+  </a> <br>
 </div>
 
 > [!NOTE]  
