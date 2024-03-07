@@ -1,15 +1,177 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unlim Cloud</title>
     <style>
-      body {
-        background-color: aliceblue;
-      }
-    </style>
-  </head>
+        body {
+            font-family: 'Verdana', sans-serif;
+            text-align: center;
+        }
 
-  <body>
-    
-  </body>
+        header img {
+            animation: openLogo 1s ease forwards;
+        }
+
+        @keyframes openLogo {
+            0% {
+                transform: scale(0);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        button {
+            margin: 1px;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: 2px solid #65de69;
+            background-color: transparent;
+            color: #65de69;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        button:hover {
+            border-color: #5b9d5e;
+            background-color: #5b9d5e;
+            color: white;
+        }
+
+        .donate-icon-container {
+            display: inline-block;
+            border: 2px solid #4a4a4a;
+            border-radius: 5px;
+            padding: 5px;
+            width: 100px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .donate-icon-container:hover {
+            border-color: #797979;
+            background-color: #f7ffa3;
+        }
+
+        .donate-icon {
+            width: 40px;
+            height: auto;
+            margin-left: 5px;
+        }
+
+        #remindLater {
+            border-color: #4a4a4a; /* Red accent color */
+            color: #4a4a4a;
+        }
+
+        #remindLater:hover {
+            border-color: #ffa5a3;
+            background-color: #ffa5a3;
+            color: white;
+        }
+
+        #donateOptions {
+            display: none;
+        }
+
+        #donateOptions.show {
+            display: block;
+        }
+
+        #donateLink {
+            color: #2f77fc;
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 20px;
+            display: block;
+        }
+
+        #donateMessage {
+            font-family: 'Verdana', sans-serif;
+            margin-top: 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Your logo here -->
+        <img src="/assets/unlim-clear.png" alt="Logo" style="max-width: 200px; margin-top: 15%;">
+    </header>
+    <main>
+        <div id="versionInfo"></div>
+        <div id="versionDisplay"></div>
+        <div id="donateOptions">
+            <p id="donateMessage">If you find this software useful, consider supporting us with a donation.</p>
+            <a id="donateLink" href="https://donate.inulute.vercel.app" target="_blank">
+                <div class="donate-icon-container">
+                    <img src="/assets/donate.png" alt="Donate" class="donate-icon">
+                </div>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <!-- Your footer content here -->
+    </footer>
+
+    <script>
+        function compareVersions(v1, v2) {
+            const parts1 = v1.split('.').map(Number);
+            const parts2 = v2.split('.').map(Number);
+            
+            for (let i = 0; i < Math.max(parts1.length, parts2.length); i++) {
+                const part1 = parts1[i] || 0;
+                const part2 = parts2[i] || 0;
+                
+                if (part1 > part2) return 1;
+                if (part1 < part2) return -1;
+            }
+            
+            return 0;
+        }
+
+        async function checkForUpdates() {
+            try {
+                const currentVersion = await fetch('/crrtver.inu').then(response => response.text());
+                const response = await fetch('https://raw.githubusercontent.com/inulute/unlim-cloud/main/package.json');
+                const { version: latestVersion } = await response.json();
+
+                if (compareVersions(latestVersion, currentVersion) === 1) {
+                    // If update available, display update information and buttons
+                    const versionInfo = document.getElementById("versionInfo");
+                    versionInfo.innerHTML = `Update Available: Latest Version - ${latestVersion}`;
+                    const versionDisplay = document.getElementById("versionDisplay");
+                    versionDisplay.innerHTML = `
+                        <button id="updateButton">Download</button>
+                        <button id="remindLater">Remind Me Later</button>
+                    `;
+                    
+                    // Listen for button click to redirect to GitHub
+                    document.getElementById("updateButton").addEventListener("click", function() {
+                        window.location.href = "https://github.com/inulute/unlim-cloud/releases/latest";
+                    });
+
+                    // Listen for "Remind Me Later" button click to redirect to donate page
+                    document.getElementById("remindLater").addEventListener("click", function() {
+                        window.location.href = "https://unlim-cloud.web.app";                    });
+
+                    // Show donate options
+                    document.getElementById("donateOptions").classList.add("show");
+                } else {
+                    // If no update available, redirect to another site instantly
+                    window.location.href = "https://unlim-cloud.web.app";
+                }
+            } catch (error) {
+                console.error("Error fetching version file:", error);
+                document.getElementById("versionDisplay").innerText = "Error checking for updates.";
+            }
+        }
+
+        // Check for updates on page load
+        document.addEventListener("DOMContentLoaded", checkForUpdates);
+    </script>
+</body>
 </html>
