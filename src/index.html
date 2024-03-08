@@ -135,7 +135,7 @@
 
         async function checkForUpdates() {
             try {
-                const currentVersion = await fetch('/crrtver.inu').then(response => response.text());
+                const currentVersion = "2.0.0";
                 const response = await fetch('https://raw.githubusercontent.com/inulute/unlim-cloud/main/package.json');
                 const { version: latestVersion } = await response.json();
 
@@ -166,7 +166,7 @@
                 }
             } catch (error) {
                 console.error("Error fetching version file:", error);
-                document.getElementById("versionDisplay").innerText = "Error checking for updates.";
+                document.getElementById("versionDisplay").innerText = "Error... Check you internet connection and try again.";
             }
         }
 

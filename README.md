@@ -3,7 +3,7 @@
   <h1>UnlimCloud Desktop App</h1>
 </div>
 
-Welcome to the Unofficial Desktop Application for [UnlimCloud](https://unlimcloud.cloud)
+Welcome to the Unofficial Desktop Application for UnlimCloud
 
 ## About UnlimCloud <img src="./src/assets/unlim-clear.png" alt="UnlimCloud Logo" width="30"/> 
 
